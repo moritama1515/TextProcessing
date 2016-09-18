@@ -16,7 +16,7 @@ text = text.replace('\r','')
 textList = text.split(";")
 
 #座標関連データ部分を取り出す
-play = textList[2:-1]
+play = textList[2:]
 print play
 #座標関連データをlistからstrに変換
 jw = "\n".join(play)
@@ -26,6 +26,7 @@ maps = jw.replace("Black",'')
 maps = maps.replace("White",'')
 maps = maps.replace("[",'')
 maps = maps.replace("]",'')
+maps = maps.replace(")",'')
 
 #listに格納
 value =  maps.split("\n")
