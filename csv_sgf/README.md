@@ -11,6 +11,7 @@ sgfファイルをcsv形式に変換するプログラムです．
 ## Usage
 1. sgfファイルの拡張子をtxtに変換してtxtファイルにします．
 2. プログラムとファイルを同じフォルダに置きます．
+
 3.`python csv_sgf.py xxxx.txt`で実行します．
 
 ## Attention
