@@ -12,10 +12,11 @@ charList = [chr(k) for k in range(97,97+26)]
 
 text = Allf.replace('\n','')
 text = text.replace('\r','')
-
 textList = text.split(";")
+
 #座標関連データ部分を取り出す
 play = textList[2:-2]
+
 #座標関連データをlistからstrに変換
 jw = "\n".join(play)
 
